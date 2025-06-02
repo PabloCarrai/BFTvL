@@ -1,0 +1,74 @@
+#	Clase-1 
+#	2/6/25
+
+#	Drive del curso
+https://drive.google.com/drive/folders/1EsMt5Ipttcg2yMmlP_BSv9NsjZmnSGxo
+
+Son 3 fases
+
+Introduccion al HTML
+#	Usaremos visual studio code
+https://code.visualstudio.com/
+
+Esto es un ide. 
+Instalamos live server
+emmet
+!tab nos tae el codigo emmet
+emmet.io
+https://emmet.io/
+https://docs.emmet.io/cheat-sheet/
+
+La web esta compuesta por etiquetas(tag)
+nos señalan el principio y final de los contenidos
+Una etiqueta describre pincipio y final de un elemento
+inicio elemento <etiqueta> contenido </etiqueta>  cierre
+hay etiquetas que no tienen cierre de tag
+Los atributos van marcados de azul. Va en la apertura de los elementos. 
+Los atributos = valor
+Sirven para configurar el modo con el que trabajan los elementos html
+lorem (completa con un texto en latin con 30 palabras)
+
+Los elementos de titulo <h1><h6>
+
+como comentar <!-- elemento comentado  -->
+strong y em se comporta como negrita y cursiva, pero semanticamente. 
+En html5 hay elementos de semantica con jerarquia de importancia. 
+
+<br> salto de linea
+<hr> linea separacion
+
+en HTML hay dos elementos. Los elementos en linea y en bloques. 
+
+Los de bloque son los que hacen disposicion de . aparte. 
+los h p br hr 
+strong em u son en linea. No hace un .aparte. 
+#	Manual html5
+https://www.w3schools.com/
+
+
+css es un lenguaje de estilo. Permite maquetacion decoracion de los elementos del html. hay 3 formas de inyectar css a un html
+
+atributo style Forma css para aplicar estilos en linea o forma semantica
+<p style="color:cyan"> 
+
+
+
+
+otra forma a traves de un elemento en forma interna
+<style>
+h3{
+color:green;
+font-family;verdana;
+
+}
+
+</style>
+
+Otra forma de aplicar css es en otro archivo aparte. (esta es la mejor forma de hacerlo)
+<link rel="stylesheet" href="css/estilo.css">
+
+
+https://teams.microsoft.com/light-meetings/launch?agent=web&version=25042109600&coords=eyJjb252ZXJzYXRpb25JZCI6IjE5Om1lZXRpbmdfWkRabFl6RmxOV1l0Wm1FMU9DMDBOalJoTFRnM05UWXRNREU0WkdRMU0yVXpZV001QHRocmVhZC52MiIsInRlbmFudElkIjoiZTljM2Y2MTQtYzhkOS00MDk1LTlhZDQtODdkMmM5YTdkOGM0Iiwib3JnYW5pemVySWQiOiI5MGU0Yjk2ZS1hM2YzLTQxNGMtYjFkZS00MDdjMDMwOTU2ZjIiLCJtZXNzYWdlSWQiOiIwIn0%3D&deeplinkId=aeb05406-85bd-48b4-97c9-48032c30a890&correlationId=fe95bf36-320e-4fda-9bf5-ba24b509c118
+
+
+https://drive.google.com/drive/folders/1HV_SYSpjAhBmqyJLST-ez_V0GcRT0OG_
