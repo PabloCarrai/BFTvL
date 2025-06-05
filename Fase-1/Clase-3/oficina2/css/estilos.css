@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Hand+Pre:wght@400..700&family=Edu+VIC+WA+NT+Hand+Pre:wght@400..700&display=swap');
+
+/*
+Formato de Colores en css
+*/
+
+h1 {
+    color: red;
+    color: blue;
+    color: #888;
+    color: rgb(255, 0, 0);
+    color: rgb(0, 0, 255);
+    color: rgba(255, 0, 0, 0.7);
+}
+
+/*
+Tipografia
+https://fonts.google.com/
+*/
+
+
+/*
+selector de grupo aplica a ambos elementos
+*/
+h1,
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 31px;
+    /*Tipografia interna*/
+}
+
+/*
+https://fonts.google.com/
+*/
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h3 {
+    font-family: "Edu NSW ACT Hand Pre", cursive;
+}
