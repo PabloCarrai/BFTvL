@@ -1,0 +1,144 @@
+#   Clase-4
+#   9/6/25
+
+formularios
+maquetado minimo de formularios
+etiquetas semanticas estructurales
+seudoclases
+
+
+son elementos contenedores de otros elementos de entrada de datos. 
+
+    <form action=""></form>
+
+    <form action="">
+
+Elementos de entradas
+
+
+    </form>
+
+
+un elemento contenido
+        <input type="text">
+
+por formulario se pueden incluir un monton de input
+
+type es un atributo de input
+action de un formulario
+
+    <form action="">
+
+        <input type="text">
+
+    </form>
+
+
+Los elementos en linea son uno al lado del otro. 
+No tienen separacion. 
+En los submit toma un texto por defecto del navegador. 
+
+descripcion dentro del input placeholder
+ <input type="text" placeholder="Ingrese nombre">
+
+
+ etiqueta para un input
+         <label for="">Nombre</label>
+Se usa un label o un placeholder
+
+        <label for="">Nombre</label>
+        <input type="text" placeholder="Ingrese nombre">
+
+
+id unicos por elemento
+        <input id="nombre" type="text" placeholder="Ingrese nombre"><br>
+
+atributo name
+sirve para darle nombre a un texto dentro de un formulario de entrada en un form
+
+index.html?nombre=dfsdf&apellido=sdf
+        <input id="nombre" type="text" name="nombre" placeholder="Ingrese nombre"><br>
+
+servicio para probar post
+    <form action="https://postman-echo.com/get">
+
+
+metodo get
+    <form action="https://postman-echo.com/get" method="get">
+Envia este metodo por get se ver por la url
+
+
+<form action="https://postman-echo.com/get" method="get">     <!--No seguro--> Se ve en la url
+<form action="https://postman-echo.com/post" method="post">     <!--Seguro--> no se ve en la url
+
+
+validador htm5 para evitar que se envie vacio
+
+required es para requerir el campo completo
+  <input id="nombre" type="text" name="nombre" placeholder="Ingrese nombre" required><br>
+
+te pide completar el campo, es un campo obligatorio
+
+        <input id="nombre" type="text" name="nombre" placeholder="Ingrese nombre" required minlength="3"><br>
+
+minlength="3" es para pedir minimo 3 caracteres
+
+en campos numericos
+        <input id="edad" type="number" name="edad" min="18" max="120">
+max min
+
+minlength="3" en campos text limita la cantidad de caracteres a poner
+
+genero escluyente mismo name
+
+        <!--campo genero-->
+        <!--opciones excluyentes-->
+        <label>Genero</label><br>
+        
+        <input id="femenino" type="radio" name="genero" value="Femenino">
+        <label for="femenino">Femenino</label>
+    
+        <input id="masculino" type="radio" name="genero" value="Masculino">
+        <label for="masculino">Masculino</label>
+    
+        <input id="Otro" type="radio" name="genero" value="Otro">
+        <label for="otro">Otro</label>
+
+con required pido que si o si elijan uno
+
+        <!--campo genero-->
+        <!--opciones excluyentes-->
+        <label>Genero</label><br>
+        
+        <input id="femenino" type="radio" required name="genero" value="Femenino">
+        <label for="femenino">Femenino</label>
+    
+        <input id="masculino" type="radio" required name="genero" value="Masculino">
+        <label for="masculino">Masculino</label>
+    
+        <input id="Otro" type="radio" required name="genero" value="Otro">
+        <label for="otro">Otro</label>
+
+Cuando son independientes, no excluyentes
+
+        <!--Independientes/Excluyentes-->
+        <label>Estudios</label>
+        <br><br>
+        <input id="primario" checked value="primario" name="primario" type="checkbox"><label for="primario">Primario</label><br>
+        <input id="secundario" value="secundario" name="secundario" type="checkbox"><label for="secundario">Secundario</label><br>
+        <input id="terciario" value="terciario" name="terciario" type="checkbox"><label for="terciario">Terciario</label><br>
+        <input id="cursos" value="cursos" name="cursos" type="checkbox"><label for="cursos">Cursos</label><br>
+        <br><br>
+
+checked es el elegido por defecto 
+
+selected nos deja fijar el valor elegido por default
+
+        <!--select-->
+        <label for="vehiculo">vehiculo</label>
+        <select name="vehiculo" id="vehiculo">
+            <option value="ford">Ford</option>
+            <option value="fiat">Fiat</option>
+            <option value="vw">VW</option>
+            <option value="ninguno" selected>Ninguno</option>
+        </select>

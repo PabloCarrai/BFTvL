@@ -1,0 +1,31 @@
+label {
+    text-transform: capitalize;
+}
+
+/* selector css de grupo*/
+label,
+input {
+    display: block;
+}
+
+/* selector css avanzado aplica por elemento con valor de atributo + selector de grupo*/
+input[type="radio"],
+label[for="femenino"],
+label[for="masculino"],
+label[for="otro"] {
+    display: inline;
+}
+
+input[type="checkbox"],
+label[for="primario"],
+label[for="secundario"],
+label[for="terciario"],
+label[for="cursos"] {
+    display: inline;
+}
+
+input,
+textarea,
+select {
+    margin-bottom: 20px;
+}
