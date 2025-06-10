@@ -1,0 +1,17 @@
+main {
+    display: flex;
+    align-items: center;
+    height: 300px;
+}
+
+#uno {
+    background-color: #041460;
+}
+
+#dos {
+    background-color: #0a2ff1;
+}
+
+#tres {
+    background-color: #3957f1;
+}
