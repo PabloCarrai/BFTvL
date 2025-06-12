@@ -1,0 +1,24 @@
+#   Clase-5 presencial
+#   12/6/25
+Proxima clase van a dar un ejercicio
+en grupo. Diseño de una pagina web sencillo
+para llegar a un formato html con navegacion. 
+Es en grupo. Terminando front. 
+Individual va a ser el proyecto.
+Etiquetas semanticas
+
+layout de sitio
+Es con respecto a la disposicion de los elementos. 
+Tiene secciones como encabezado(header)
+seccion navegacion(navbar) indice de pagina web
+barra laterales con contenidos. Son elementos aside(opcionales)
+zona main(principal de contenido)
+footer(pie de pagina)
+Estos contenidos mantiene elementos semanticos que hacen que el navegador interprete el contenido
+Estos elemento dan sentido a nivel semantico. El significado por estructura del elemento. Es para los buscadores boot
+
+vh son medidas del ancho y alto 15% = 15vh 100% != 100vh
+no tiene que poder escrolear hacia los costados. Solo de arriba a abajo
+
+iframe 
+clave de video

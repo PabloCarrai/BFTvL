@@ -1,0 +1,84 @@
+/* aplica a todos los elementos es a todos los elementos selector universal*/
+* {
+    box-sizing: border-box;
+    /* contiene al borde y al padding*/
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background-color: red;
+    color: white;
+    width: 100%;
+    height: 15vh;
+    float: left;
+
+}
+
+nav {
+    background-color: blue;
+    color: white;
+    width: 100%;
+    height: 10vh;
+    float: left;
+}
+
+#aside1 {
+    background-color: green;
+    color: white;
+    width: 15%;
+    height: 65vh;
+    float: left;
+    /* padding*/
+    padding: 10px;
+    padding: 10px 20px;
+    /* aplica primero y segundo tercero y cuarto*/
+    padding: 10px 20px 30px;
+    /* top lef rigth boton*/
+    padding: 10px 20px 30px 40px;
+    /* top rigth boton lef*/
+    padding-left: 35px;
+    /* border*/
+    border: 4px solid yellow;
+    /* margin(una sangria externa)*/
+    margin: 10px;
+    margin: 10px 20px;
+    /* aplica primero y segundo tercero y cuarto*/
+    margin: 10px 20px 30px;
+    /* top lef rigth boton*/
+    margin: 10px 20px 30px 40px;
+    /* top rigth boton lef*/
+    margin-left: 35px;
+    margin: 0;
+}
+
+#aside2 {
+    background-color: green;
+    width: 20%;
+    float: left;
+}
+
+#aside2 {
+    background-color: purple;
+    width: 10%;
+    float: left;
+}
+
+
+main {
+    background-color: brown;
+    color: white;
+    width: 70%;
+    height: 65vh;
+    float: left;
+}
+
+footer {
+    background-color: black;
+    color: yellow;
+    width: 100%;
+    height: 10vh;
+    float: left;
+}

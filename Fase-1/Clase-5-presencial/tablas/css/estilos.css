@@ -1,0 +1,31 @@
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    color: white;
+}
+
+th,
+td {
+    border: 2px solid black;
+    padding: 5px 10px;
+}
+
+#solapa-h {
+    background-color: purple;
+}
+
+#solapa-v {
+    background-color: red;
+}
+
+.titulo {
+    background-color: green;
+}
+
+.par {
+    background-color: sandybrown;
+}
+
+.inpar {
+    background-color: blue;
+}
