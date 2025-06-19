@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio-Video(Etiquetas)</title>
+</head>
+
+<body>
+
+    <!---->
+    <!--Es para html5 lo anterior no tenia-->
+    <video src="AcaVaElarchivos"></video>
+    <video src="video.mp4"></video>
+    <!--Etiqueta de video-->
+    <video src="video.mp4"></video>
+
+    <!--Ejemplo-->
+    <!-- https://youtu.be/COVF6UmaxNw?si=Qm_lySG8hPVYyJlX -->
+
+    <!--https://www.w3schools.com/tags/tag_video.asp-->
+    <video width="320" height="240" controls>
+        <source src="movie.mp4" type="video/mp4">
+        <source src="movie.ogg" type="video/ogg">
+        Your browser does not support the video tag.
+    </video>
+    <!--Me falta conseguir un archivo de video-->
+    <video width="400" src="./recursos/movie.mp4" controls muted autoplay loop></video>
+    <!--mp4 es con licencia webm es codec de libre uso-->
+    <!-- Otra forma  -->
+    <!-- Esta forma por si no soporta un tipo de video toma otro-->
+    <video width="400" controls muted autoplay loop>
+        <!-- Si no funca un tipo de video va con el otro  -->
+        <source src="./recursos/movie.webm" type="video/webm">
+        <source src="./recursos/movie.mp3" type="video/mp4">
+        el navegador no soporta la etiqueta video
+    </video>
+
+    <!-- Etiqueta de audio  -->
+    <!-- http://www.w3schools.com/TAGs/tag_audio.asp -->
+    <audio controls muted autoplay loop>
+        <source src="horse.ogg" type="audio/ogg">
+        <source src="horse.mp3" type="audio/mpeg">
+        Your browser does not support the audio tag.
+    </audio>
+    <!-- Etiqueta de audio  -->    
+    <audio src="horse.ogg" controls muted autoplay loop></audio>
+
+
+</body>
+
+</html>

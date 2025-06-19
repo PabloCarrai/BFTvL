@@ -1,0 +1,97 @@
+body,
+h1,
+h3 {
+    margin: 0;
+
+}
+
+nav,
+main {
+    padding: 5px;
+}
+
+header {
+    background-color: teal;
+    color: white;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    margin-bottom: 10px;
+}
+
+img {
+    width: 50%;
+    height: 250px;
+}
+
+/* El estilo se aplica a un elemento o contenedor 
+   el text-align es sobre el elemento que lo contiene
+*/
+
+section div {
+    text-align: center;
+}
+
+/* Pseudoclases */
+/* Aplicado a elementos de vinculo o enlaces */
+/* los link tienen estados estado azul */
+
+/* elemento a estado no visitado */
+a:link {
+    color: green;
+}
+
+/* visitado */
+a:visited {
+    color: orangered;
+}
+
+/* hover(mouse encima del elemento) */
+a:hover {
+    color: blueviolet;
+    font-size: 110%;
+}
+
+/* active(activo) hice un click mantenido sobre el elemento a*/
+a:active {
+    color: crimson;
+    text-transform: uppercase;
+}
+
+/* pseudoclase a parrafo */
+section#contenido-1 p {
+    color: brown;
+}
+
+
+/* pseudoclase a parrafo */
+section#contenido-1 p:hover {
+    color: brown;
+    font-style: italic;
+
+}
+
+
+/* pseudoclase a parrafo */
+section#contenido-2 p:active {
+    color: blue;
+    text-transform: capitalize;
+    text-align: right;
+}
+
+img:hover{
+    border: 5px dashed magenta;
+}
+
+footer {
+    background-color: cornflowerblue;
+    height: 100px;
+    color: cyan;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 26px;
+    text-align: center;
+    line-height: 100px;
+}
+
+/* Pseudoclases*/
+/* https://developer.mozilla.org/es/docs/Web/CSS/Pseudo-classes */

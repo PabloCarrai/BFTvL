@@ -2,3 +2,53 @@
 #	19/6/25
 
 
+Vamos con ejercicio en grupo. 
+Es con fecha entrega 1 julio
+Etiquetas de video
+Avanzamos con html y css avanzado
+En estos dia llega la documentacion de esta parte. 
+
+
+html5 pone etiquetas nuevas sobre audio y video
+
+<video src=""></video>
+
+
+Ejemplo 
+<!--Ejemplo-->
+<!--https://www.w3schools.com/tags/tag_video.asp-->
+
+<video width="320" height="240" controls>
+  <source src="movie.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+</video> 
+
+Hay que ver que formato de video son libres(tienen licencias)
+El tamaño del video no se gestiona a traves de la etiqueta video. 
+
+pseudo clases
+Modelo de caja
+selectores de grupo
+float
+flex
+
+pseudo clases
+selector de css para detectar estados
+Aplica estilo cuando un elemento toma un estado
+
+cajas
+flex
+flow
+
+
+Ejercicio
+Para hacer en grupo
+Ejercicio Fase1
+usar colorzilla para obtener el color
+1 de julio se entrega 
+leer las instrucciones
+un zip danielsanchez68@hotmail.com
+entre 3 o 4 personas. 
+Es un zip por grupo se envia por mail
+danielsanchez68@hotmail.com
