@@ -1,0 +1,71 @@
+
+* {
+    box-sizing: border-box;
+    visibility: visible;
+
+}
+
+
+#container {
+    /* border: 1px solid magenta; */
+    width: 100%;
+    height: 500px;
+    display: flex;
+    /*justify-content: start;
+    /*hacia derecha*/
+    /*justify-content: end;
+    /*hacia izquierda*/
+    /*justify-content: center;
+    /*con flow no se puede hacer*/
+   /* justify-content: space-between;
+    justify-content: space-evenly;
+    justify-content: space-around;
+    /*justificacion vertical*/
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+div {
+    height: 200px;
+}
+
+#caja-roja {
+    /* border: 1px solid magenta; */
+    width: 30%;
+    background-color: red;
+    float: right;
+}
+
+#caja-gris {
+    /* border: 1px solid magenta; */
+    width: 15%;
+    background-color: gray;
+    float: right;
+}
+
+#caja-verde {
+    /* border: 1px solid magenta; */
+    width: 25%;
+    background-color: green;
+    overflow: auto;
+    /* aparece scrool si se necesita*/
+    color: white;
+    float: left;
+    padding: 5px;
+    margin-right: 5px;
+
+}
+
+#caja-amarilla {
+    /* border: 1px solid magenta; */
+    width: 10%;
+    background-color: yellow;
+    float: right;
+}
+
+p {
+    color: brown;
+    margin: 0;
+    border: 5px solid magenta;
+    /*clear: both;*/
+}

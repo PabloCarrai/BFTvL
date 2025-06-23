@@ -1,0 +1,40 @@
+#container {
+    /* border: 1px solid magenta; */
+    height: auto;
+}
+
+div {
+    height: 200px;
+}
+
+#caja-roja {
+    /* border: 1px solid magenta; */
+    width: 30%;
+    background-color: red;
+}
+
+#caja-gris {
+    /* border: 1px solid magenta; */
+    width: 15%;
+    background-color: gray;
+}
+
+#caja-verde {
+    /* border: 1px solid magenta; */
+    width: 25%;
+    background-color: green;
+    overflow: auto;
+    /* aparece scrool si se necesita*/
+    color: white;
+}
+
+#caja-amarilla {
+    /* border: 1px solid magenta; */
+    width: 10%;
+    background-color: yellow;
+}
+
+p {
+    color: brown;
+    margin: 0;
+}

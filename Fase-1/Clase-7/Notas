@@ -1,0 +1,14 @@
+#   Clase-7
+#   23/6/25
+
+Flex con ejemplos
+arrancamos con el ecomerce
+las secciones tienen que estar separadas
+el mail tiene que ser independientes
+propiedad display flex, controla como se 
+comportan los elementos de html
+las propiedad es siempre inline
+en display es block.
+Cuando es display nono no se muestra
+y la otra es flex. 
+flex no se herera por propiedad
