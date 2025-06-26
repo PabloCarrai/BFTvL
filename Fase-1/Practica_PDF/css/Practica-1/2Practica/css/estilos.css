@@ -1,0 +1,57 @@
+h1 {
+    text-transform: uppercase;
+}
+
+h2 {
+    text-transform: lowercase;
+}
+
+h3 {
+    text-transform: capitalize;
+}
+
+h4 {
+    text-transform: none;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.left {
+    text-align: left;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.small-caps {
+    font-variant: small-caps;
+}
+
+.none {
+    font-variant: none;
+}
+
+.boldfw {
+    font-weight: bold;
+}
+
+.italicfs {
+    font-style: italic;
+}
+
+#encabezado {
+    color: aquamarine;
+}
+
+.caja,
+#caja {
+    width: 50%;
+    background-color: antiquewhite;
+}
