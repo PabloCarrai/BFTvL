@@ -1,3 +1,50 @@
 #	Clase 9
 #	30/6/25
 
+grillas en css
+selectores css avanzados por pseudoclases(por numero de elementos)
+pseudoelementos, contadores
+regla media
+SASS(lenguaje css con poderes especiales)
+se usan variables en css.
+
+la  ultima especificacion de html5
+sigue manteniendo el uso y no hubo nueva
+revision. Hay sub versiones. 
+
+en css es la css3 grilla es algo nuevo
+de hace algunos años. Salio en sub version css3
+permite posicionar elementos. 
+grilla hace algo parecido a flex, pero mas avanzado
+
+boostraps es un framework css(libreria avanzada de css)
+maneja el layout con las grillas. 
+Se implementan con flex
+
+la ultima version es la 5
+Conviene siempre ir por la ultima. 
+
+Revisar el grid4 que se rompio mal, ver el del profe
+desde aca en adelante. 
+
+
+:nth-child 
+Se le pasa entre parentesis la cantidad de hijos a elegir en un contenedor
+
+:first-child 
+es al primer hijo del contenedor == nth-child(1)
+
+:nth-last-child
+el ultimo hijo arrancando de abajo
+
+:last-child
+es al ultimo hijo del contenedor
+
+:nth-child(even)
+es hijos pares
+
+:nth-child(odd)
+es hijos impares
+
+:nth-of-type
+parecido a nth-child
