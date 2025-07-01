@@ -1,0 +1,19 @@
+div {
+    width: 100px;
+    height: 100px;
+    color: white;
+    background-color: blue;
+    float: left;
+
+}
+
+main {
+    width: 100%;
+    background-color: red;
+    overflow: hidden;
+
+}
+
+footer {
+    clear: both;
+}
