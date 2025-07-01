@@ -13,14 +13,15 @@ p {
 
     display: grid;
 
-    grid-template-columns: repeat(10, 1fr);
+    grid-template-columns: repeat(20, 1fr);
     grid-template-rows: 15vh 10vh 60vh 15vh;
     /* revisar como lo subio el profe porque cambio todo a ultimo momento*/
     grid-template-areas:
-        "header header header header header header header header header header"
-        "nav nav nav nav nav nav nav nav nav nav"
-        "aside aside main main main main main main main aside2"
-        "footer footer footer footer footer footer footer footer  footer footer";
+        "header header header header header header header header header header header header header header header header header header header header"
+        "nav nav nav nav nav nav nav nav nav nav nav nav nav nav nav nav nav nav nav nav"
+        "aside1 aside1 aside1 main main main main main main main main main main main main main main main aside2 aside2"
+        "footer footer footer footer footer footer footer footer  footer footer footer footer footer footer footer footer footer footer  footer footer"
+        ;
 
 }
 
