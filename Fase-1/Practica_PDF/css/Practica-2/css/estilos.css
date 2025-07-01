@@ -1,0 +1,21 @@
+/*      La forma de usar fuentes de google      */
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Hand+Pre:wght@400..700&family=Edu+VIC+WA+NT+Hand+Pre:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*      La forma de instalarse una fuente y usar eso desde ahi  */
+@font-face {
+    font-family: miFuente;
+    src: url(../font/LovesStory.ttf);
+}
+
+
+p {
+    font-family: "Edu NSW ACT Hand Pre", cursive;
+    font-optical-sizing: auto;
+    font-style: normal
+}
+
+#diferente{
+    font-family: miFuente;
+    text-align: left;
+    font-size: 30px;
+}
