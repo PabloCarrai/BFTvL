@@ -1,0 +1,74 @@
+/* https://developer.mozilla.org/es/docs/Web/CSS/Pseudo-classes */
+
+
+/* ---------------------------------- */
+/*            :nth-child()            */
+/* ---------------------------------- */
+/* https://developer.mozilla.org/es/docs/Web/CSS/:nth-child */
+
+/* main :nth-child(1) { */
+/* main h1:first-child {  mas especifico */
+/*main h1:first-child {
+    background-color: pink;
+}
+ /* entre parentesis el hijo que usaremos*/
+ /*main p:nth-child(6) mas especifico*/
+/*main p:nth-child(6) {
+    background-color: yellow;
+}
+/*enumera de abajo hacia arriba. Del ultimo al primero*/
+/*main :nth-last-child(6) { 
+    background-color: orange;
+}
+
+main :last-child {
+    background-color: salmon;
+}
+
+
+
+
+/*
+/* even es hijos pares odd es impar*/
+/*main :nth-child(even) {
+    background-color: purple;
+    color: white;
+}
+*/
+/*main :nth-child(odd) {
+    background-color: orangered;
+    color: white;
+}
+*/
+
+
+/* ---------------------------------- */
+/*          :nth-of-type()            */
+/* ---------------------------------- */
+/* https://developer.mozilla.org/es/docs/Web/CSS/:nth-of-type */
+
+/* :nth-of-type() selecciona grupo de hijo por etiqueta*/
+/* divide a los hijos de main en grupos, de parrafos. Toma primer parrafo como hijo*/
+main p:first-of-type{
+    background-color: aqua;
+}
+
+main h1:nth-of-type(3){
+    background-color: blueviolet;
+    color:white
+}
+
+main p:nth-last-of-type(2){
+    background-color: gold;
+    color:white
+}
+
+
+main h1:last-of-type{
+    background-color: orange;
+}
+
+main p:nth-of-type(2), main h1:nth-last-of-type(3){
+    background-color: crimson;
+    color: white;
+}

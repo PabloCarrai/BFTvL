@@ -1,0 +1,87 @@
+/* usan doble :   es decir :: es para trabajar dentro del contenido del elemento   */
+/* permite modificar un elemento*/
+/* https://developer.mozilla.org/es/docs/Web/CSS/Pseudo-elements */
+/*  */
+
+main p::first-line {
+    color: blue;
+    /*font-size: xx-large;*/
+}
+
+main h1::first-letter {
+    color: red;
+    font-size: 40px;
+    font-style: italic;
+}
+
+/* aplica antes del contenido */
+main p::before {
+    /*injecta contenido*/
+    content: 'Principio ->';
+    color: magenta;
+}
+
+/* sobre el final aplico contenido */
+main p::after {
+    content: '- Fin';
+    font-weight: bold;
+}
+
+/* inyecta una imagen por url*/
+main h1::before {
+    content: url('https://picsum.photos/536/354');
+}
+
+main :first-child::before{
+    content: url('https://picsum.photos/536/354?2');
+    color: green;
+
+}
+
+main h1:nth-of-type(2)::before{
+    content: url('https://picsum.photos/536/354?3');
+    /*color: green;*/
+
+}
+
+main h1:nth-of-type(3)::before{
+    content: url('https://picsum.photos/536/354?4');
+    /*color: green;*/
+
+}
+
+/*footer::before{
+    content: 'Principio -';
+    color: red;
+}*/
+
+/*footer::after{
+    content: '- Fin';
+    color: blueviolet;
+}*/
+/*funciona igual si es solo con un solo : footer:before */
+footer::before{
+    content: 'Copyright';
+}
+
+/*  Contadores css con pseudoelementos */
+
+/*nombre del contador titulos a 0*/
+main{
+    counter-reset: titulos;
+    counter-reset: parrafos;
+}
+
+/*incremento titulos cuando encuentro h1 incrementa y pone en h1*/
+main h1{
+    counter-increment: titulos;
+    counter-increment: parrafos;
+}
+
+main h1::after{
+    content: '('counter(titulos)')';
+}
+
+main p::after{
+    content: '(' counter(parrafos) ')';
+}

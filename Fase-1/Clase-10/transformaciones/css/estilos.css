@@ -1,0 +1,46 @@
+body {
+    font: 17px Arial;
+    margin-top: 100px;
+}
+
+main {
+    border: 1px dashed black;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+div {
+    border: 1px dotted magenta;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-variant: small-caps;
+    border-radius: 10px/5px; /* radiox /radioy */
+    margin-left: 5px;
+}
+
+main div:first-child{
+    background-color: lightblue;
+    transform: rotate(-45deg); /*   rota el elemento en grados */
+}
+
+main div:nth-child(2){
+    background-color: limegreen;
+    transform: rotate(-45deg);
+    transform-origin: 20px 10px; /* mete el origen de la rotacion*/
+}
+main div:nth-child(3){
+    background-color: purple;
+    color: white;
+    transform: rotateX(180deg)
+               rotateY(180deg)
+               rotateZ(-45deg);
+}
+main div:nth-child(4){
+    background-color: lightgreen;
+    transform: scale(0.5,2)
+               translateY(50px)
+               skewY(-30deg);
+}
